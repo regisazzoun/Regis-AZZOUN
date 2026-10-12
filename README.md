@@ -2,7 +2,7 @@
 
 ## Enseignement, réseaux, électronique et intelligence artificielle
 
-Je suis **enseignant en lycée professionnel**, auprès d'élèves de **Bac Pro CIEL** (*Cybersécurité, Informatique et réseaux, Électronique*). Je développe des environnements techniques et des supports pédagogiques qui rapprochent les apprentissages des situations réelles : réseaux d'entreprise, serveurs, supervision, systèmes embarqués, automatisation et, désormais, intelligence artificielle locale.
+Je suis **enseignant en Bac Pro CIEL** (*Cybersécurité, Informatique et réseaux, Électronique*), en **BTS SIO option SISR** (*Solutions d'Infrastructure, Systèmes et Réseaux*) et en **Passerelle BTS**. J'accompagne les apprenants à différents niveaux, depuis la découverte des systèmes et réseaux jusqu'à l'administration d'infrastructures et la préparation à l'enseignement supérieur. Je développe des environnements techniques et des supports pédagogiques qui rapprochent les apprentissages des situations réelles : réseaux d'entreprise, serveurs, supervision, systèmes embarqués, automatisation et, désormais, intelligence artificielle locale.
 
 Ce GitHub rassemble mes **projets en cours**, mes expérimentations et, progressivement, des ressources partageables. Je privilégie les travaux pratiques reproductibles, l'autonomie des élèves et les retours d'expérience — y compris lorsque les essais ne fonctionnent pas du premier coup.
 
@@ -57,13 +57,24 @@ Développement d'un dispositif d'affichage de veille :
 - Déploiement sur **Raspberry Pi 4**, avec travaux autour de **Docker**, **PM2** et **systemd**.
 - Transformation de la solution en travaux pratiques progressifs.
 
-### 🎓 Ressources pédagogiques Bac Pro CIEL et poursuite d'études
+### 🎓 Enseignement : Bac Pro CIEL, BTS SIO SISR et Passerelle BTS
 
-Création de supports techniques structurés :
-- Séquences et TP de trois heures, évaluations, corrigés et documents d'accompagnement.
-- Mise en autonomie des élèves à travers des ressources guidées.
-- Projets de **passerelle vers le BTS** et travaux de réflexion autour d'un **BTS SIO**.
-- Supports et démarches liés aux périodes de formation en milieu professionnel (PFMP).
+Mon activité pédagogique s'articule autour de trois parcours complémentaires :
+
+- **Bac Pro CIEL** : acquisition des fondamentaux en électronique, informatique, réseaux, cybersécurité et systèmes embarqués ; mise en pratique sur des équipements réels.
+- **BTS SIO — option SISR** : approfondissement des infrastructures, de l'administration des systèmes et réseaux, de la virtualisation, de la supervision, de la sécurité et de l'automatisation.
+- **Passerelle BTS** : accompagnement de la transition vers l'enseignement supérieur, consolidation des prérequis, montée en autonomie, méthodes de diagnostic et conduite de projets.
+
+Je cherche à créer des **continuités pédagogiques** entre ces formations, avec des situations techniques pouvant être reprises à plusieurs niveaux : une même infrastructure réseau peut servir à découvrir un VLAN, puis à traiter le routage, l'administration, la supervision et la sécurisation.
+
+Les ressources développées comprennent :
+- Des progressions et des **TP de trois heures**, avec objectifs, prérequis et points de contrôle.
+- Des documents de **guidance élève** et des aides graduées (« coups de pouce ») pour favoriser la recherche autonome.
+- Des **corrigés enseignants**, barèmes, questionnaires et grilles d'évaluation.
+- Des projets interdisciplinaires combinant réseaux, Linux, virtualisation, électronique et IA locale.
+- Des supports pour les **PFMP**, l'orientation et la poursuite d'études.
+
+Parmi les chantiers structurants : la préparation de ressources pour les classes passerelles et la réflexion sur le développement d'une offre **BTS SIO** au sein de l'établissement.
 
 ### 📝 Formulaires et outils Web pour la PFMP
 
@@ -86,7 +97,7 @@ Développement d'outils destinés au suivi et à la saisie mobile :
 
 Mes projets ne sont pas seulement des démonstrateurs : ils servent aussi à construire des apprentissages. J'essaie de conjuguer :
 1. Une **mise en situation concrète**, sur du matériel et des services réels.
-2. Une **progression adaptée au niveau** des élèves.
+2. Une **progression adaptée au niveau** des élèves et étudiants, du Bac Pro à la Passerelle BTS et au BTS SIO SISR.
 3. Des **consignes guidées sans donner immédiatement toutes les réponses**.
 4. Des **points de contrôle et une évaluation explicite**.
 5. Une documentation assez claire pour être réutilisée et améliorée.
