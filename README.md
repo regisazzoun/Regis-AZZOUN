@@ -1,5 +1,7 @@
 # Bonjour, bienvenue sur mon GitHub 👋
 
+[🇬🇧 **English version ↓**](#english-version)
+
 ## Enseignement, réseaux, électronique et intelligence artificielle
 
 Je suis **enseignant en Bac Pro CIEL** (*Cybersécurité, Informatique et réseaux, Électronique*), en **BTS SIO option SISR** (*Solutions d'Infrastructure, Systèmes et Réseaux*) et en **Passerelle BTS**. J'accompagne les apprenants à différents niveaux, depuis la découverte des systèmes et réseaux jusqu'à l'administration d'infrastructures et la préparation à l'enseignement supérieur. Je développe des environnements techniques et des supports pédagogiques qui rapprochent les apprentissages des situations réelles : réseaux d'entreprise, serveurs, supervision, systèmes embarqués, automatisation et, désormais, intelligence artificielle locale.
@@ -111,3 +113,121 @@ Les échanges constructifs sur la reproductibilité, l'accessibilité des ressou
 ---
 
 *Profil et projets mis à jour en octobre 2026.*
+
+---
+
+## English version
+
+[🇫🇷 Retour à la version française ↑](#bonjour-bienvenue-sur-mon-github-)
+
+### Teaching, networking, electronics and artificial intelligence
+
+I teach **Bac Pro CIEL** (*Cybersecurity, Computer Science and Networks, Electronics*), **BTS SIO — SISR track** (*IT Services for Organizations — Infrastructure, Systems and Network Solutions*), and **Passerelle BTS** (a bridging programme towards higher technical education). I support learners at different stages, from discovering computer systems and networks to managing infrastructure and preparing for higher education. I develop technical environments and teaching materials rooted in real-world situations: enterprise networks, servers, monitoring, embedded systems, automation and, more recently, local artificial intelligence.
+
+This GitHub profile brings together my **ongoing projects**, experiments and, progressively, resources that can be shared. I value reproducible hands-on labs, learner autonomy and lessons learned — including when an experiment does not work on the first attempt.
+
+> **Guiding principle:** experiment, understand, document, improve and share knowledge.
+
+### 🚀 Ongoing projects
+
+#### 🤖 JARVIS — Local AI laboratory
+
+An experimental lab aimed at building a locally hosted AI assistant for working with documents, code and, eventually, system administration and automation tasks.
+
+Two complementary hardware platforms:
+- **Debian-based Mac mini** with a **Razer Core / NVIDIA eGPU**: an experimental setup for Thunderbolt, drivers, CUDA, Ollama and Open WebUI.
+- **Dell Precision 5820**, i9-10980XE, **128 GB RAM**, with a proposed architecture using **two RTX 3090 GPUs**: intended for more powerful and reproducible experiments.
+
+My approach is pragmatic: establish feasibility, record obstacles, retain measured results and avoid holding up an experiment over every minor issue.
+
+Technical documentation is based on **Codex missions** and their reports. The lab repository is currently private while its contents are reviewed for public release.
+
+#### 🌐 Cisco networking, VLANs and virtualization
+
+Studying and evolving a teaching and school network infrastructure:
+- **VLAN** segmentation, Cisco trunks, IP addressing and switch administration.
+- Connecting physical infrastructure to **VMware ESXi** and **Windows Server** systems.
+- Documenting configurations, network topology and maintenance procedures.
+- Exploring management VLANs, equipment hierarchy and network monitoring.
+
+#### 📡 Network monitoring with Nagios
+
+Developing procedures and practical labs around **Nagios Core on Raspberry Pi**:
+- Installation and host/service monitoring.
+- Parent/child dependencies and connectivity hierarchy.
+- Monitoring network equipment, Internet connectivity, firewalls, virtualization and storage.
+- Intermediate checks, student questionnaires and assessment rubrics.
+
+#### 🦾 Arduino robotic arm
+
+Designing practical lessons around a **six-servo robotic arm** controlled with an **Arduino Mega**:
+- Control using **three PS2 joysticks** or a **Wii Nunchuk over I²C**.
+- Dead zones, calibration and mapping controls to axes.
+- Printed circuit board design and introduction to **Fritzing**.
+- Different learning progressions for French *Seconde* and *Première* students.
+
+Each session is designed with a **student lab handout**, a **guided research document**, **progressive hints** and a **teacher's answer key**, all following a consistent layout.
+
+#### 📰 Technology and cybersecurity news dashboard on Raspberry Pi
+
+Developing a technology news display system:
+- Aggregating **RSS feeds** covering IT and cybersecurity news.
+- **Node.js** server, **SQLite** database, web interface and French translation.
+- Displaying a **cybersecurity event map**.
+- Deployment on **Raspberry Pi 4**, including **Docker**, **PM2** and **systemd**.
+- Turning the implementation into progressive hands-on lessons.
+
+#### 🎓 Teaching: Bac Pro CIEL, BTS SIO SISR and Passerelle BTS
+
+My teaching activity spans three complementary pathways:
+
+- **Bac Pro CIEL**: foundations in electronics, computing, networking, cybersecurity and embedded systems, with practical work on real equipment.
+- **BTS SIO — SISR track**: deeper work on IT infrastructure, systems and network administration, virtualization, monitoring, security and automation.
+- **Passerelle BTS**: supporting the transition to higher education through foundational knowledge, autonomy, diagnostic methods and project-based learning.
+
+I aim to build **continuity between these programmes** through technical scenarios adaptable to several levels. A single network infrastructure, for instance, can be used to introduce VLANs and later explore routing, administration, monitoring and security.
+
+The resources I develop include:
+- Teaching sequences and **three-hour practical labs**, with objectives, prerequisites and checkpoints.
+- **Student guidance documents** and graduated hints to encourage independent research.
+- **Teacher answer keys**, scoring schemes, questionnaires and assessment grids.
+- Cross-disciplinary projects combining networks, Linux, virtualization, electronics and local AI.
+- Materials for **work placements (PFMP)**, career guidance and further studies.
+
+Current areas of work include developing resources for bridging classes and exploring a **BTS SIO programme** at the school.
+
+#### 📝 Work-placement forms and web tools
+
+Developing mobile-friendly tools for collecting and tracking information:
+- Forms with checkboxes, photographs, signatures and PDF generation.
+- Exploring hosting and distribution options.
+- Existing repository: **[FormulairePFMP](https://github.com/regisazzoun/FormulairePFMP)**.
+
+### 🔧 Technologies used or explored
+
+**Networking and systems:** Cisco IOS · VLAN · SSH · Debian/Linux · Raspberry Pi · Windows Server · VMware ESXi · Nagios
+
+**Development and automation:** Python · JavaScript / Node.js · Bash · PowerShell · SQLite · Docker · Git / GitHub · systemd
+
+**Electronics and prototyping:** Arduino Mega · ESP32 · Servomotors · I²C · Fritzing · PCBs · 3D printing
+
+**Local AI:** NVIDIA CUDA · GPUs/eGPUs · Ollama · Open WebUI · Language models · Codex
+
+### 📚 My teaching approach
+
+These projects are not just technology demonstrators: they are also learning opportunities. I aim to combine:
+1. **Realistic practical situations**, using actual hardware and services.
+2. **Level-appropriate progression**, from vocational high school to Passerelle BTS and BTS SIO SISR.
+3. **Guided activities without immediately giving away all the answers**.
+4. **Checkpoints and transparent assessment criteria**.
+5. Documentation that others can reuse and improve.
+
+### 🤝 Sharing and contributions
+
+I plan to share procedures, scripts, teaching sequences and experimental findings progressively. Projects featured here may still be **under development**; their presence does not mean that every feature has been completed or validated.
+
+Constructive discussion about reproducibility, educational resources and teaching applications is welcome.
+
+---
+
+*Profile and projects updated in October 2026.*
